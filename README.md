@@ -1,12 +1,14 @@
 Simple Shell
 ---
+![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
+
 ## Name
 
 hsh - a simple shell
 
 ## Description
 
-This project recreates a simple command line shell that executes commands read from the standard input or from a file
+this project recreates a simple command line shell that executes commands read from the standard input or from a file
 
 * can execute any commands from the environment path
 * works on interactive and non-interactive mode

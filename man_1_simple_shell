@@ -1,6 +1,6 @@
 .TH SIMPLE_SHELL 1
 .SH NAME
-simple_shell
+hsh, a simple_shell
 
 .SH SYNOPSIS
 the simple shell is a simplified version of  the original shell, written by Ken Thompson
@@ -9,7 +9,7 @@ the simple shell is a simplified version of  the original shell, written by Ken 
 runs commands in both interactive and non-interactive modes. Handles PATH to commands
 
 .SH RETURN VALUE
-Returns exit codes and error codes (if any)
+returns exit codes and error codes (if any)
 
 .SH SYNTAX
 .B $ <command> <flags or options> <argument 1> <argument 2> ...
