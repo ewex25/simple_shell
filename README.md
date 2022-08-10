@@ -119,6 +119,6 @@ files should be compiled this way:
 ### Authors
 -----------
 
-[Ahmed Hassen](https://github.com/ewex25)
+[Dr.Ahmed Mohummed](https://github.com/ewex25)
 
 [Adewole Conde](https://github.com/phatboislym)
