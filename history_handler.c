@@ -10,6 +10,8 @@ int get_history(char *input)
 	char *file_name = "/.simple_shell_history";
 	char *directory = get_env("HOME");
 	char *file_path = malloc(_strlen(directory) + _strlen(file_name) + 1);
+	ssize_t fd, w;
+
 	if (!file_path)
 	{
 		perror("malloc error->get_history");
@@ -18,7 +20,6 @@ int get_history(char *input)
 	}
 	_strcpy(file_path, directory);
 	_strcpy(file_path, file_name);
-	ssize_t fd, w;
 
 /*if not exist create,read and write and append if exist*/
 	fd = open(file_path, O_CREAT | O_RDWR | O_APPEND, 0600);

@@ -6,7 +6,6 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
 	char **tokens;
 	char *line;
 	int status;
@@ -26,6 +25,10 @@ int main(int argc, char *argv[])
 			tokens = NULL;
 			free(line);
 			continue;
+		}
+		else
+		{
+			printf("%i", argc);
 		}
 		get_history(line);
 /*split the line into tokens*/
