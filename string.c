@@ -70,7 +70,7 @@ int str_comp(char **arr, int size)
 			j++;
 		}
 		if (command[i][j] == ptr[j])
-			return(flag);
+			return (flag);
 		i++;
 		flag++;
 	}
